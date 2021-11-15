@@ -1,0 +1,53 @@
+### 查询数据
+GET http://localhost:3000/student
+
+### API公共前缀
+@baseUrl = http://localhost:3000
+
+### 数据形式
+@contentType = application/json
+
+### 根据Id查询
+# @name getUsersById
+GET {{baseUrl}}/student/1004
+
+### 根据No查询
+# @name getUsersByNo
+GET {{baseUrl}}/student/?no=1003
+
+### 根据姓名查询
+# @name getUsersByName
+GET {{baseUrl}}/student/?name=李阳
+
+### 添加
+POST {{baseUrl}}/student
+Content-Type: {{contentType}}
+
+{
+  "no": 1008,
+  "name": "郑雨",
+  "sex": 1,
+  "address": "bbbb"
+}
+
+### 更新
+# 根据id更新
+PATCH {{baseUrl}}/student/1004
+Content-Type: {{contentType}}
+
+{
+  "id": 1004,
+  "no": 1004,
+  "name": "李阳",
+  "sex": 0,
+  "address": "wwwww"
+  }
+
+### 删除
+DELETE {{baseUrl}}/student/?no=1008
+
+### 查询
+GET http://localhost:3000/student/?name=李阳
+
+### 删除
+DELETE http://localhost:3000/student/?no=1008

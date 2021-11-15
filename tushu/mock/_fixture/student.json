@@ -1,0 +1,39 @@
+{
+  "tushu": [
+    {
+      "id": 1,
+      "studentNo": 1001,
+      "password": "aaaaa",
+      "username": "小王",
+      "telephone": 18811111
+    },
+    {
+      "id": 2,
+      "studentNo": 1002,
+      "password": "bbbbb",
+      "username": "小李",
+      "telephone": 18822222
+    },
+    {
+      "id": 3,
+      "studentNo": 1003,
+      "password": "ccccc",
+      "username": "涵涵",
+      "telephone": 18833333
+    },
+    {
+      "id": 4,
+      "studentNo": 1004,
+      "password": "ddddd",
+      "username": "帆帆",
+      "telephone": 18844444
+    },
+    {
+      "id": 5,
+      "studentNo": 432,
+      "password": 1,
+      "username": "hgfh",
+      "telephone": "432"
+    }
+  ]
+}
